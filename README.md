@@ -27,3 +27,6 @@ Cada classe deve conhecer e ser responsável por suas próprias regras de negóc
 # L - Liskov Substituition Principle
 Uma classe base deve poder ser substituída por suas classes filhas em qualquer lugar do código.
 Se algum código depende de uma classe, qualquer classe que a estenda deve poder ser utilizada no lugar. Com isso, se um comportamento for alterado no método, resultados inesperados podem ocorrer.
+
+# D - Dependency Inversion Principle
+Abstrações não devem depender de implementações. Implementações devem depender de abstrações.
