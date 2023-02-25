@@ -23,3 +23,7 @@ Uma classe (ou módulo, função, etc) deve ter um e apenas um motivo para mudar
 Entidades devem ser abertas para expansão mas fechadas para modificação
 Garantir que cada ação/responsabilidade esteja na classe correta
 Cada classe deve conhecer e ser responsável por suas próprias regras de negócio
+
+# L - Liskov Substituition Principle
+Uma classe base deve poder ser substituída por suas classes filhas em qualquer lugar do código.
+Se algum código depende de uma classe, qualquer classe que a estenda deve poder ser utilizada no lugar. Com isso, se um comportamento for alterado no método, resultados inesperados podem ocorrer.
