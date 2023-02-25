@@ -18,3 +18,8 @@ Dependências entre classes
 # S - Single Responsability Principle
 Principio de Responsabilidade Unica, cada classe deve ter somente uma responsabilidade - Coesa
 Uma classe (ou módulo, função, etc) deve ter um e apenas um motivo para mudar
+
+# O - Open Closed Principle
+Entidades devem ser abertas para expansão mas fechadas para modificação
+Garantir que cada ação/responsabilidade esteja na classe correta
+Cada classe deve conhecer e ser responsável por suas próprias regras de negócio
