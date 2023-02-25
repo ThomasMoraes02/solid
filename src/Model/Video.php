@@ -2,6 +2,8 @@
 
 namespace Alura\Solid\Model;
 
+use DateInterval;
+
 class Video
 {
     /** @var bool */
@@ -15,7 +17,7 @@ class Video
     {
         $this->nome = $nome;
         $this->assistido = false;
-        $this->duracao = \DateInterval::createFromDateString('0');
+        $this->duracao = DateInterval::createFromDateString('0');
     }
 
     public function assistir(): void

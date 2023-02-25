@@ -2,8 +2,9 @@
 
 namespace Alura\Solid\Service;
 
-use Alura\Solid\Model\AluraMais;
+use DomainException;
 use Alura\Solid\Model\Curso;
+use Alura\Solid\Model\AluraMais;
 
 class CalculadorPontuacao
 {
@@ -14,7 +15,7 @@ class CalculadorPontuacao
         } else if ($conteudo instanceof AluraMais) {
             return $conteudo->minutosDeDuracao() * 2;
         } else {
-            throw new \DomainException('Apenas Cursos e videos Alura+ possuem pontuações');
+            throw new DomainException('Apenas Cursos e videos Alura+ possuem pontuações');
         }
     }
 }

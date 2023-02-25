@@ -2,6 +2,8 @@
 
 namespace Alura\Solid\Model;
 
+use Alura\Solid\Model\Video;
+
 class AluraMais extends Video
 {
     private $categoria;
